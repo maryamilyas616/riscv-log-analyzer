@@ -40,7 +40,7 @@ report: ## Generate reports and a summary in output/
 	@echo "Summary written to output/summary.txt"
 
 clean: ## Remove all generated output files
-	rm -f output/*.txt output/*.csv
+	rm -f output/*.txt output/*.csv output/*.html
 	@echo "Cleaned output/"
 
 setup: ## Check that required tools are installed
