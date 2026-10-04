@@ -28,3 +28,16 @@ Exit codes: `0` all tests passed, `1` at least one test failed, `2` bad usage.
 ## Make targets
 
 Run `make help` to list them: `all`, `test`, `report`, `clean`, `setup`, `help`.
+
+## Bonus features
+
+| Option | Meaning |
+|--------|---------|
+| `--compare <baseline.log>` | Lists regressions: tests that passed in the baseline log but fail now (text format only) |
+| `--color` / `--no-color` | Force colored output on or off. By default colors are used only when printing to a terminal |
+
+Example:
+
+    ./scripts/analyze.sh test_data/sample_fail.log --compare old_run.log
+
+`make report` also writes `output/report.html`, a browser-friendly table of every test result.
