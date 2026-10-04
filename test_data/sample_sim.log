@@ -1,0 +1,12 @@
+[2026-05-01 11:00:00] TEST START: rv32i-add
+[2026-05-01 11:00:01] TEST PASS: rv32i-add (0.80s)
+[2026-05-01 11:00:01] TEST START: rv32i-lw
+[2026-05-01 11:00:02] TEST PASS: rv32i-lw (0.95s)
+[2026-05-01 11:00:02] TEST START: rv32i-sw
+[2026-05-01 11:00:03] TEST FAIL: rv32i-sw (1.10s)
+[2026-05-01 11:00:03] ERROR: Memory write mismatch at address 0x80001000
+[2026-05-01 11:00:03] TEST START: rv32i-jal
+[2026-05-01 11:00:04] TEST PASS: rv32i-jal (0.77s)
+[2026-05-01 11:00:04] TEST START: rv32i-fence
+[2026-05-01 11:00:04] TEST SKIP: rv32i-fence (not supported)
+[2026-05-01 11:00:04] SUMMARY: 5 tests, 3 passed, 1 failed, 1 skipped
