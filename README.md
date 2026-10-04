@@ -2,7 +2,7 @@
 
 ## Installation
 
-    git clone git@github.com:YOUR-USERNAME/riscv-log-analyzer.git
+    git clone git@github.com:maryamilyas616/riscv-log-analyzer.git
     cd riscv-log-analyzer
     make setup        # checks that bash, grep, awk, sed, git and make are installed
 
